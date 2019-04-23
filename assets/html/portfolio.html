@@ -1,0 +1,123 @@
+<!-- ************************************************** -->
+<!-- Portfolio page but this time we will use Bootstrap -->
+<!-- ************************************************** -->
+
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap-Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Link our page to Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Masonry CDN -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> 
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Link local css style -->
+    <link rel="stylesheet" href="../css/style.css"> 
+
+</head>
+<body>
+<!-- Body will be built using the grid concept (container, rows, columns -->
+    <!-- Countainer Div -->
+    <div class="container">
+        <!-- Second layer will be the navigation bar -->
+        <!-- this is different from the Responsive version, where de Nav bar was below the header -->
+        
+        <!-- Section 1: Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Our brand / logo -->
+            <a class="navbar-brand" href="about.html">German Garcia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Collapsible button -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+    
+                    <!-- The links of our navbar -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                            <a class="nav-link" href="https://www.linkedin.com/in/germangar/">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <!-- Section 2: Jumbotron / header -->
+        <!-- Jumbotron element -->
+        <div class="jumbotron">
+                <div class="text-center">
+                    <img src="../images/portfolioBanner_v1.gif" class="img-fluid" alt="Homework Week 2"> 
+                </div>
+        </div>
+        <div class="row border-bottom">
+
+        </div>
+        <!-- Thumbnails section-->
+        <div class="row">
+            <div class="grid col-md-12" data-masonry='{ "columnWidth": 180, "itemSelector": ".grid-item" }'>
+                    <div class="grid-item grid-item--width2">
+                            <a href="../../projects/trainScheduler/trainScheduler.html">
+                                <img src="../images/trainScheduler.jpg" class="img-fluid img-thumbnail rounded float-left" alt="Train Scheduler">
+                            </a>
+                    </div>
+                <div class="grid-item grid-item--width3"> 
+                    <a href="../../projects/hangMan/hangman.html">
+                        <img src="../images/hangMan.jpg" class="img-fluid img-thumbnail rounded float-left" alt="Hang Man"> 
+                    </a>
+                </div>
+                <div class="grid-item grid-item--width4">
+                    <a href="../../projects/crystalCollector/crystalCollector.html">
+                        <img src="../images/crystalCollection.jpg" class="img-fluid img-thumbnail rounded float-left" alt="Crystal Collection">
+                    </a>
+                </div>
+                <div class="grid-item ">
+                        <img src="../images/triviaGame.jpg" class="img-fluid img-thumbnail rounded float-left" alt="Trivia Game">
+                </div>
+                <div class="grid-item grid-item--width2">
+                    <a href="../../projects/giphyApi/giphyApp.html">
+                        <img src="../images/GiphyApp.jpg" class="img-fluid img-thumbnail rounded float-left" alt="Giphy App">
+                    </a>
+                </div>
+                
+               
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 bg-light"> <!-- Footer row -->
+                    <br> 
+                    <p class="text-center"> Copyrigth &copy;    ----   german dot garcia at dcmsllc dot net  ---- </p>
+            </div>
+        </div>
+    </div> <!-- Div container -->
+    
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+        var $container = $('#image-container');
+
+
+</body>
+</html>
