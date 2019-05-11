@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image: url("../../images/luca-bravo-217276-unsplash.jpg");
+    background-size: cover;
+    min-height: 400px;
+    color: rgb(62, 112, 153);
+  }
