@@ -1,2 +1,0 @@
-# TriviaGame
-Homework Week5
