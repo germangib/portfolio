@@ -16,13 +16,13 @@ class PortfolioPage extends Component {
                         <Container>    
                             <Row>
                                 <Col xs="auto">
-                                    <img src={require("../images/giphyApp.jpg")} onClick={()=> window.open("https://germangib.github.io/giphyApi/", "_blank")} style={{cursor: 'pointer'}} alt="giphyApp" />
+                                    <img src={require("../images/giphy-app.jpg")} onClick={()=> window.open("https://germangib.github.io/giphyApi/", "_blank")} style={{cursor: 'pointer'}} alt="giphyApp" />
                                 </Col>
                                 <Col xs="auto"> 
-                                    <img src={require("../images/triviaGame.jpg")} alt="triviaGame" />
+                                    <img src={require("../images/trivia-game.jpg")} alt="triviaGame" />
                                 </Col>
                                 <Col xs="auto">
-                                    <img src={require("../images/trainScheduler.jpg")} onClick={()=> window.open("https://germangib.github.io/trainScheduler/", "_blank")} style={{cursor: 'pointer'}} alt="trainScheduler" />
+                                    <img src={require("../images/train-scheduler.jpg")} onClick={()=> window.open("https://germangib.github.io/trainScheduler/", "_blank")} style={{cursor: 'pointer'}} alt="trainScheduler" />
                                 </Col>
                                 <Col xs="auto">
                                     <img src={require("../images/crystal-collection.jpg")} onClick={()=> window.open("https://germangib.github.io/CrystalCollector/", "_blank")} style={{cursor: 'pointer'}} alt="crystal collection" />
@@ -30,13 +30,13 @@ class PortfolioPage extends Component {
                             </Row>
                             <Row>
                                 <Col xs="auto">
-                                    <img src={require("../images/hangMan.jpg")} onClick={()=> window.open("https://germangib.github.io/hangMan/", "_blank")} style={{cursor: 'pointer'}} alt="hangMan" />
+                                    <img src={require("../images/hang-man.jpg")} onClick={()=> window.open("https://germangib.github.io/hangMan/", "_blank")} style={{cursor: 'pointer'}} alt="hangMan" />
                                 </Col>
                                 <Col xs="auto">
                                     <img src={require("../images/liri_spotify-this.jpg")} onClick={()=> window.open("https://github.com/germangib/LIRI.git", "_blank")} style={{cursor: 'pointer'}} alt="LIRI" />
                                 </Col>
                                 <Col xs="auto">
-                                    <img src={require("../images/friendsFinder.jpg")} onClick={()=> window.open("https://pumpkin-shortcake-31066.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="Friend Finder" />
+                                    <img src={require("../images/friends-finder.jpg")} onClick={()=> window.open("https://pumpkin-shortcake-31066.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="Friend Finder" />
                                 </Col>
                                 <Col xs="auto">
                                     <img src={require("../images/google-books-front.jpg")} onClick={()=> window.open("https://shielded-inlet-79715.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="google books" />
@@ -47,16 +47,16 @@ class PortfolioPage extends Component {
                                     <img src={require("../images/bamazon_screen1.jpg")} onClick={()=> window.open("https://github.com/germangib/bamazon.git", "_blank")} style={{cursor: 'pointer'}} alt="Bamazon" />
                                 </Col>
                                 <Col xs="auto">
-                                    <img src={require("../images/scrape_frontPage.jpg")} onClick={()=> window.open("https://sleepy-beyond-15604.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="Scrape News" />
+                                    <img src={require("../images/scrape_front-page.jpg")} onClick={()=> window.open("https://sleepy-beyond-15604.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="Scrape News" />
                                 </Col>
                             </Row>
                             <h3 className="text-white jbHeading">Contributor...</h3>
                             <Row>
                                 <Col xs="auto">
-                                    <img src={require("../images/workr_landingPage.jpg")} onClick={()=> window.open("https://tranquil-journey-10841.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="Workr Project" />
+                                    <img src={require("../images/workr_landing-page.jpg")} onClick={()=> window.open("https://tranquil-journey-10841.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="Workr Project" />
                                 </Col>
                                 <Col xs="auto">
-                                    <img src={require("../images/EasyEatsHompage.png")} onClick={()=> window.open("https://shrouded-waters-91830.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="Easy Eats" />
+                                    <img src={require("../images/easy-eats-homepage.png")} onClick={()=> window.open("https://shrouded-waters-91830.herokuapp.com/", "_blank")} style={{cursor: 'pointer'}} alt="Easy Eats" />
                                 </Col>     
                             </Row>
                         </Container>               
