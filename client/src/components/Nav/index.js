@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { faHome, faBriefcase, faAddressBook, faAddressCard } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'; 
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Nav() {
@@ -21,14 +21,14 @@ function Nav() {
               <a className="nav-link" href="/about">
               <FontAwesomeIcon icon={faAddressCard} />  About
               </a>
-              <a className="nav-link" href="https://www.linkedin.com/in/germangar/">
+              <a className="nav-link" href="https://www.linkedin.com/in/germangar/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />  LinkedIn
               </a>
               <a className="nav-link" href="/portfolio">
               <FontAwesomeIcon icon={faBriefcase} />  Portfolio
               </a>
-              <a className="nav-link" href="/contact">
-              <FontAwesomeIcon icon={faAddressBook} />  Contact
+              <a className="nav-link" href="https://github.com/germangib" target="_blank">
+              <FontAwesomeIcon icon={faGithub} />  GitHub
               </a>
             </div>
         </div>
